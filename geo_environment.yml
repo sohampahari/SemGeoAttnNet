@@ -1,0 +1,41 @@
+name: geo_env
+channels:
+  - pytorch
+  - nvidia/label/cuda-12.4.1
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - cuda
+  - conda-forge::cudnn
+  - gcc=13.2
+  - gxx=13.2
+  - pytorch=2.5.0
+  - torchvision=0.20.0
+  - torchaudio=2.5.0
+  - pytorch-cuda=12.4
+  - ninja
+  - google-sparsehash
+  - h5py
+  - pyyaml
+  - tensorboard
+  - tensorboardx
+  - scipy
+  - plyfile
+  - termcolor
+  - tqdm
+  - matplotlib
+  - open3d
+  - einops
+  - addict
+  - pip:
+    - --find-links https://data.pyg.org/whl/torch-2.5.0+cu124.html
+    - torch-cluster
+    - torch-scatter
+    - torch-sparse
+    - torch-geometric
+    - spconv-cu124
+    - trimesh
+    - numpy

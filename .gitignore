@@ -15,8 +15,16 @@ meshes/
 meshes_semantic/
 ppo_scanpath_tesorboard/
 results_viz/
+results_viz_normalized/
 smooth_gaze/
 smooth_gaze_txt/
 *.zip
 *.pth
 *.pt
+scene data/
+vis_2d.py
+ppo_scanpath_tesorboard/
+*png
+scanpath_results/
+final/
+2d_img/
